@@ -99,6 +99,7 @@ public class ssub
 			//flag = -1;
 			if(t[i] == f[0])
 			{
+				flag = -1;
 				while(j < n2)
 				{
 					if(!(t[i] == f[j])) flag = 0;
